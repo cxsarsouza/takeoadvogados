@@ -264,9 +264,124 @@ button {
     margin-left: 20px;
 }
 
+.iframe{
+    height: 100%;
+    min-height: 600px;
+    
+}
+
+.nav-flex{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.h2-dif{
+        font-size: 2.8rem !important;
+        font-weight: 700;
+        color: #192440;
+}
+
 /********** RWD **********/
-@media (max-width: 575px) {
-    #banner h1 {
-        font-size: 3.6rem;
+
+@media (max-width: 1300px) {
+    .iframe-div{
+        width: 350px;
     }
+}
+
+@media (max-width: 900px) {
+    .text-main {
+        max-width: 510px;
+    }
+    .h1-main {
+        font-size: 36px;
+    }
+    .p-main {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 790px) {
+    .chat-position{
+        display: flex;
+        justify-content: center;
+        position: static;
+    }
+    .iframe-div{
+        position: relative;
+        margin-top: 60px;
+        
+    }
+    .iframe{
+        height: 100%;
+        min-height: 330px;
+    }
+    
+    .text-main {
+        padding-top: 15px;
+        max-width: 760px;
+    }
+    .h2-dir{
+        text-align: center;
+    }
+    .p-dir {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .container{
+        width: 100% !important;
+    }
+   
+    .bg-banner {
+        background-image: url(../img/bg-adv.png);
+        background-position: top left;
+        height: 1020px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .div-flex-min{
+        flex-direction: column;
+    }
+    .div-flex-min p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .nav-flex{
+       flex-direction: column;
+    }
+    
+
+}
+
+@media (max-width: 415px) {
+
+    .h1-main {
+        font-size: 32px;
+    }
+    .div-flex-min p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .p-main {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .h2-dir{
+        font-size: 37px !important;
+        padding-bottom: 15px;
+    }
+    #feature-first {
+        background: linear-gradient(168deg, #3393ff 55%, #3393ff 0);
+    }
+    .h2-dif{
+        font-size: 38px !important;
+        color: #ffff !important ;
+    } 
+
 }
