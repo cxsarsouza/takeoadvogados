@@ -309,7 +309,7 @@ button {
     }
     .iframe-div{
         position: relative;
-        margin-top: 60px;
+        margin-top: 70px;
         
     }
     .iframe{
@@ -318,7 +318,7 @@ button {
     }
     
     .text-main {
-        padding-top: 15px;
+        padding-top: 40px;
         max-width: 760px;
     }
     .h2-dir{
@@ -338,7 +338,7 @@ button {
     .bg-banner {
         background-image: url(../img/bg-adv.png);
         background-position: top left;
-        height: 1020px;
+        height: 1070px;
     }
 
 }
